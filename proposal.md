@@ -16,7 +16,7 @@ Austin Oaks
 
 	*BRAINSTORM* 
 
-	From our point of view, this addon is able to use the
+ From our point of view, this addon is able to use the
  information stored inside the tweet (through a Twitter API)
  and return results (with a Google API). Specifically, JavaScript
  will be used to call to our Python with prompts to a server returning
