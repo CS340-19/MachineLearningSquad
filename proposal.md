@@ -3,23 +3,23 @@
 
 *Machine Learning Squad*
 
-Members:
+Memebers:
 Jared Colburn,
 Kody Bloodworth,
 Tanner Fry,
 Austin Oaks
 
 1: Introduction
+(In the age of information, social media has revolutionized how people consume and discuss information. 
+However, often, information travels faster than people are able to consume it. 
+Often times, users are left "out of the loop," unsure what others are discussing. 
 
-Our project will be a browser addon that puts links to relevant news articles next to tweets. It will use machine learning technologies to determine if a tweet is related to a current event.
+Worse, misinformation can easily spread through social media. In these environments,
+doing your own research becomes exhaustive. Our project hopes to aleviate some of these anxieties. 
+Our project will allow users to do their own research and stay up-to-date in conversations with their peers,
+specifically through Twitter.) -This might make for a good introduction start? Wrote it for the customer value section 
+before actually reading the proposal guideline.
 
-In the age of information, social media has revolutionized how people consume and discuss information. 
-However, information often travels faster than people are able to responsibly consume it. 
-Social media is a hotbed for misinformation, and it can spread quickly in these environments.
-For many people, it can seem overwhelming to keep up to date with accurate information regarding current events.
-Our project hopes to alleviate some of the anxieties by helping users stay informed and up-to-date in conversations with their peers.
-
-Our project fills the need to those wishing to keep up with current events through Twitter. Twitter can be a very useful source of this kind of information, but matching the words of other people with relevant information can sometimes be difficult. Our addon aims to cut out the middleman and provide users with this research automatically.
 
 2: Customer Value
 
@@ -36,14 +36,11 @@ There's also nothing quite like this available at the moment. In neither the Fir
 
 3: Proposed Solution & Technology
 
-   Our addon for Firefox will allow twitter users to find related articles on tweets to get a better understanding of the talked about subject. There will be a lot of moving parts within our addon consisting of JavaScript, Python, HTML, and CSS. HTML and CSS will be used for designing a UI for the addon dropdown window. JavaScript is used to initiate the addon within Firefox, and will be used to communicate with the Twitter API, Google API, and Python scripts hosted on a server. The overall process will start with the user starting our addon on the page of the tweet, the addon will then be using the Twitter API through JavaScript to obtain the text of the tweet, then connect to the server hosting the python machine learning script to send the tweet data, then the Python script will use machine learning algorithms to estimate keywords from the tweet to search through google to find related information, once the Python script obtains the keywords, the keywords will be sent back to JavaScript which will then pass those keywords to the Google API which will return the top search results from the keywords and return the links and information on the results. Lastly, JavaScript will call HTML files for formatting the results, and within the HTML files, CSS files will be called for more formatting of the results. As of right now, we have decided to return the top three returned articles from the Google API in the addon dropdown window, which once clicked will open a new tab of that link. There will also be a feedback system implemented next to the links provided that will be used to determine if the provided links are valid suggestions for the topic expected from the user, and that feedback will loop back to the Python script, so the learning algorithm can adjust.
+   Our addon for Firefox will allow Twitter users to find related articles on tweets to get a better understanding of the talked about subject. There will be a lot of moving parts within our addon consisting of JavaScript, Python, HTML, and CSS. HTML and CSS will be used for designing a UI for the addon dropdown window. JavaScript is used to initiate the addon within Firefox, and will be used to communicate with the Twitter API, Google API, and Python scripts hosted on a server. The overall process will start with the user starting our addon on the page of the tweet, the addon will then be using the Twitter API through JavaScript to obtain the text of the tweet, then connect to the server hosting the Python machine learning script to send the tweet data, then the Python script will use machine learning algorithms to estimate keywords from the tweet to search through google to find related information, once the Python script obtains the keywords, the keywords will be sent back to JavaScript which will then pass those keywords to the Google API which will return the top search results from the keywords and return the links and information on the results. We hope to use Pyhton machine learning libraries such as the Natural Language Toolkit and Tensorflow to implement these kids of scripts. Both should be ableto classify text as we require. Lastly, JavaScript will call HTML files for formatting the results, and within the HTML files, CSS files will be called for more formatting of the results. As of right now, we have decided to return the top three returned articles from the Google API in the addon dropdown window, which once clicked will open a new tab of that link. There will also be a feedback system implemented next to the links provided that will be used to determine if the provided links are valid suggestions for the topic expected from the user, and that feedback will loop back to the Python script, so the learning algorithm can adjust.
    
    For testing and debugging our code, the Python scripts will begin being tested separately on a local computer for researching and testing algorithms that provide the best accuracy, and once finished will be uploaded to a created server or a hosting server service that Google provides. For JavaScript, HTML, and CSS debugging and testing will be done within editors (Visual Studio, Atom, etc.) and then pushed to Firefox within their development/debugging menu which will allow us to deploy a temporary addon to test on our browser alone. 
    
-   Once all has been implemented, we have two ideas on how the addon will appear for the user. First, the addon could stay in the toolbar, and when the user opens the page of the tweet itself, click the addon, and it will generate and return the links to the articles. Second, the other idea we had is to implement a button that will be attached to tweets that when clicked will activate the addon to begin generating the related story links. Once we get more experience with working with the Twitter API and its limitations, we will be decided which path we want pursue on the initial startup for the addon. 
-
-
-4: Team
+   Once all has been implemented, we have two ideas on how the addon will appear for the user. First, the addon could stay in the toolbar, and when the user opens the page of the tweet itself, click the addon, and it will generate and return the links to the articles. Second, the other idea we had is to implement a button that will be attached to tweets that when clicked will activate the addon to begin generating the related story links. Once we get more experience with working with the Twitter API and its limitations, we will be decided which path we want pursue on the initial startup for the addon. If we decide to do an in-browser UI, it will be implemented using publicly available JavaScript graphics and/or UI libraries like React.
 
 5: Project Management
 
