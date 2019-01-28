@@ -1,24 +1,25 @@
-*TENTATIVE*
+AutoStories for Twitter
  
 
-*Machine Learning Squad*
+*The Machine Learning Squad*
+Github: MachineLearningSquad
 
-Memebers:
+Members:
 Jared Colburn,
 Kody Bloodworth,
 Tanner Fry,
 Austin Oaks
 
 1: Introduction
-(In the age of information, social media has revolutionized how people consume and discuss information. 
-However, often, information travels faster than people are able to consume it. 
-Often times, users are left "out of the loop," unsure what others are discussing. 
+Our project will be a browser addon that puts links to relevant news articles next to tweets. It will use machine learning technologies to determine if a tweet is related to a current event.
 
-Worse, misinformation can easily spread through social media. In these environments,
-doing your own research becomes exhaustive. Our project hopes to aleviate some of these anxieties. 
-Our project will allow users to do their own research and stay up-to-date in conversations with their peers,
-specifically through Twitter.) -This might make for a good introduction start? Wrote it for the customer value section 
-before actually reading the proposal guideline.
+In the age of information, social media has revolutionized how people consume and discuss information. 
+However, information often travels faster than people are able to responsibly consume it. 
+Social media is a hotbed for misinformation, and it can spread quickly in these environments.
+For many people, it can seem overwhelming to keep up to date with accurate information regarding current events.
+Our project hopes to alleviate some of the anxieties by helping users stay informed and up-to-date in conversations with their peers.
+
+Our project fills the need to those wishing to keep up with current events through Twitter. Twitter can be a very useful source of this kind of information, but matching the words of other people with relevant information can sometimes be difficult. Our addon aims to cut out the middleman and provide users with this research automatically.
 
 
 2: Customer Value
