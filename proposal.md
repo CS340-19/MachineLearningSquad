@@ -15,7 +15,7 @@ Our project fills the need to those wishing to keep up with current events throu
 
 There is currently no browser extension which does what we're trying to accomplish, at least with Twitter. There are some extensions, such as Centr, which analyze news sources to determine political bias. Furthermore, there are also multiple web apps which analyze users tweets to discern information, such as WordAnalyzer.com. However, no extensions are web apps exist to provide news to users when given a tweet's information.
 
-All members of the Machine Learning Squad are computer science majors, all of which have a distinct interest in machine learning. We are all also interested in web development.
+All members of the Machine Learning Squad are computer science majors except for Tanner who is a computer engineer, but we all have a distinct interest in machine learning. We are all also interested in web development.
 </br></br></br>
   
     
