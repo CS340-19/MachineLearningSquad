@@ -1,8 +1,8 @@
 {
 
-  "description": "Demonstrating toolbar buttons",
+  "description": "Puts links to relevant news articles next to tweets",
   "manifest_version": 2,
-  "name": "button-demo",
+  "name": "Autostories for Twitter",
   "version": "1.0",
 
   "browser_action": {
