@@ -12,6 +12,13 @@
       "16": "icons/page-16.png",
       "32": "icons/page-32.png"
     }
-  }
+  },
 
+  "content_scripts": [
+  {
+    "matches": ["*://*.twitter.com/*"],
+    "js": ["request.js"],
+    "run_at": "document_start"
+  }
+  ]
 }
