@@ -4,7 +4,7 @@ from newsapi import NewsApiClient
 from googleapiclient.discovery import build
 class Search_Handler():
     def __init__(self):
-        self.service = build("customsearch", "v1", developerKey="AIzaSyBJrI3DsXAEvFoZnT4xaJJxmoVGIfO3jmw")
+        self.service = build("customsearch", "v1", developerKey="AIzaSyBsXpOaEQwgsnjgn0s1pe96mStp_FktOGw")
     def do_search(self, query):
         self.stories = self.service.cse().list(
                 q=query, cx="012957021449082369818:uml3rkdclnk", num=3).execute()
