@@ -39,4 +39,5 @@ for j in search(string, tld='com', num=3 ,stop = 1, pause=2):
 
 search = Search_Handler()
 stories = search.do_search(string)
+print(stories);
 
