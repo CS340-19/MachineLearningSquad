@@ -15,6 +15,7 @@ For the most part no major changes to our initial plan.
 No change.
 </br></br></br>
 <h3>3:Technology:</br></h3>
+For the most part, our ideas of the technology we planned on implementing is still being implemented. Our addon for Firefox is still implemented using JavaScript, HTML, and CSS. We originally didn't know exactly which route we wanted to take in terms of how the addon will be formatted in the browser, but we have decided to keep the addon in the toolbar so that when the user clicks it, it will display the google search links of the top results based on the tweets content. Our overall logic for the generation of google links for the user is within python, and we implemented the twitter API, Google API, and keyword extraction as we planned that has been tested and is working. The last major piece we have left is to figure out how to communicate between the addon in JavaScript and the python script being hosted on a server. 
 </br></br></br>
 <h3>4: Team:</br></h3>
 Kody - 
