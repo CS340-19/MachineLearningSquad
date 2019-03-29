@@ -1,0 +1,4 @@
+flask
+nltk
+rake-nltk
+tweepy
