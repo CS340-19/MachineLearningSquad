@@ -24,13 +24,17 @@ class Window(tk.Frame):
         stories = r.json();
         for x in stories:
             print(x)
-            v = tk.Label(self, text = x["title"], font=("Helvetica", 16))
+            v = tk.Label(self, text = x["title"], font=("Helvetica", 20))
             self.boxes.append(v)
             v.pack();
 
             d = tk.Label(self, text = x["description"], font=("Helvetica", 12))
             self.boxes.append(d)
             d.pack()
+
+            l = tk.Label(self, text = x["link"], font=("Courier", 10))
+            self.boxes.append(l)
+            l.pack()
 
 
 root = tk.Tk()
