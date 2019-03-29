@@ -18,10 +18,8 @@ No change.
 For the most part, our ideas of the technology we planned on implementing is still being implemented. Our addon for Firefox is still implemented using JavaScript, HTML, and CSS. We originally didn't know exactly which route we wanted to take in terms of how the addon will be formatted in the browser, but we have decided to keep the addon in the toolbar so that when the user clicks it, it will display the google search links of the top results based on the tweets content. Our overall logic for the generation of google links for the user is within python, and we implemented the twitter API, Google API, and keyword extraction as we planned that has been tested and is working. The last major piece we have left is to figure out how to communicate between the addon in JavaScript and the python script being hosted on a server. 
 </br></br></br>
 <h3>4: Team:</br></h3>
-Kody - 
-Austin -
-Tanner - 
-Jared - 
+For this iteration each member was assigned an individual part to our product as a whole. As such the stages of research to
+implementation were assigned to the appropriate member. No changes currently or planned for. 
 </br></br></br>
 <h3>5: Project Management:</br></h3>
 The product is on schedule. No updates to the schedule, since we haven't encountered a crisis yet we have been moving
