@@ -3,17 +3,18 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
     <link rel="stylesheet" href="choose_page.css" />
+    <script src="choose_page.js"></script>
 </head>
 
-<body>
-    <div class="story-1">twitter.com</div>
-    <input type="hidden" class="story-1-link"></input>
-    <div class="story-2">instagram.com</div>
-    <input type="hidden" class="story-2-link"></input>
-    <div class="story-3">facebook.com</div>
-    <input type="hidden" class="story-3-link"></input>
-    <script src="choose_page.js"></script>
+<body onload="GetTweetStories()">
+    <div id="story-1">Story 1</div>
+    <input type="hidden" id="story-1-link"></input>
+    <div id="story-2">Story 2</div>
+    <input type="hidden" id="story-2-link"></input>
+    <div id="story-3">Story 3</div>
+    <input type="hidden" id="story-3-link"></input>
 </body>
 
 </html>
