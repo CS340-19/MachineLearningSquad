@@ -1,3 +1,24 @@
+function send_request(xhr, id) {
+    // TODO: Get the id here
+    return xhr;
+}
+// res is an object
+// res[0] is the tweetid
+// the rest are 3 links: link, description, title
+function insertLinks(res) {
+    console.log(res);
+    console.log(res[0]);
+    console.log(res[1].link);
+    var id = res[0];
+    var link = document.createElement("div");
+    link.innerHTML += '<div><a href="' + res[1]['link'] + '">' +  res[1]['title'] + '</a></div>';
+    link.innerHTML += '<div><a href="' + res[2]['link'] + '">' +  res[2]['title'] + '</a></div>';
+    link.innerHTML += '<div><a href="' + res[3]['link'] + '">' +  res[3]['title'] + '</a></div>';
+    // Find tweet through tweet id and insert link after everything else
+    tweet = document.querySelector('div[data-item-id="'+ id +'"]');
+    tweet.appendChild(link);
+}
+
 function addbutton(tweets) {
     for(var i = 0; i < tweets.length; i++) {
         if(tweets[i].tagName == "LI") {
@@ -8,12 +29,21 @@ function addbutton(tweets) {
             // Deleting a class so that the button does not work as the "DM" button anymore
             copy.childNodes[1].setAttribute("class", "ProfileTweet-actionButton u-textUserColorHover js-actionButton");
             copy.childNodes[1].addEventListener("click", function(event) {
-                // TODO: make request to server here
-                var link = document.createElement("div");
-                link.innerHTML = "<br />link would go here";
+                var id = event.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.dataset.itemId;
+                var xhr = new XMLHttpRequest();
+                xhr.responseType = "json";
+                xhr.onload = function() {
+                    res = xhr.response;
+                    console.log(res);
+                    insertLinks(res);
+                }
+                xhr.open("GET", "http://107.161.31.193:5000/?tweetid=" + id);
+                xhr.send();
+                //xhr = send_request(xhr, id);
+               // var link = document.createElement("div");
+                //link.innerHTML = "<br />link would go here";
                 // Inserting link after everything else in element
-                // TODO: my eyes
-                event.target.parentElement.parentElement.parentElement.parentElement.insertBefore(link, null);
+                //event.target.parentElement.parentElement.parentElement.parentElement.parentElement.insertBefore(link, null);
             });
 
         }
@@ -37,14 +67,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // Start observing immediately after adding initial buttons
     observer.observe(tweetslist, config);
-})r
+});
 
-var xhr = new XMLHttpRequest()
-xhr.onload = function () {
-    // TODO: Change a global link variable?
-}
-function send_request(xhr) {
-    // TODO: Get the id here
-    xhr.open("GET", "http://localhost:9000/?id=" + id, true);
-    xhr.send();
-}
