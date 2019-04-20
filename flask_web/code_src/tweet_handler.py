@@ -1,5 +1,6 @@
 from rake_nltk import Rake
 import tweepy
+import json
 from keyword_generator import Keyword_Generator
 from search_handler import Search_Handler
 
@@ -38,7 +39,10 @@ class Tweet_Handler:
 
         search = Search_Handler()
         stories = search.do_search(string)
-        #print(stories);
+        tempstories = json.loads(stories);
+        tempstories.insert(0, tweetid);
+        stories = json.dumps(tempstories);
+        print(stories);
         #this should be a json object with three stories given. 
         return stories;
 
