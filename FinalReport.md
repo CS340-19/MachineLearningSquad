@@ -74,7 +74,7 @@ each members' roles/assignments.
 
 - Austin Oaks: Implemented the Firefox addon that read our server API and inserted the Google Search links below the corresponding tweet. The addon was written in JavaScript and used content scripts and AJAX requests to communicate with the server and display each link. 
 
-- Kody Bloodworth: Researched extensively into various machine learning concepts that could be used for our project, developed the backend code structure, implemented the Google Custom Search API, wrote the backend server with Flask, and developed the basic structure for how the data would be sent to the client, and created a testing applet to debug our server implementation before our Javascript interface was fully developed. 
+- Kody Bloodworth: Researched extensively into various machine learning concepts that could be used for our project, developed the backend code structure, implemented the Google Custom Search API, wrote the backend server with Flask, developed the basic structure for how the data would be sent to the client, and created a testing applet to debug our server implementation before our Javascript interface was fully developed. 
 
 - Tanner Fry: Worked on researching how to communicate with the Twitter API, Google API, and how to use RAKE. Implemented a very bare
 bones Firefox addon and python script for communicating with the Twitter API(tweepy), the Google API, and basic usage of RAKE. My
