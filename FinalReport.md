@@ -24,6 +24,30 @@ No changes.
 </br></br>
 <h2>Technology</h2>
 
+After completing our minimum viable system of "Tweet-to-GoogleSearch" program, we set out the goal to transition it to our
+Firefox add-on. Once the user clicks on our icon, which is just the same Direct Message icon but on the far right, 
+relevant Google links are provided as shown:
+![working](https://cdn.discordapp.com/attachments/535828386912927752/572499205210243073/working.png)
+
+However, it isn't perfect. Our add-on rarely succeeds on tweets with images and sometimes it just fails. This example
+shows our add-on providing the link back to itself.
+![notworking](https://cdn.discordapp.com/attachments/535828386912927752/572499062960554056/notworking.png)
+
+The consistency of our add-on is not clean either. On occassion our add-on doesn't even appear and requires the whole
+page to be refreshed.
+
+Before Refresh:
+
+![notrefresh](https://cdn.discordapp.com/attachments/535828386912927752/572499094644457477/notworkingtillrefresh.png)
+
+After Refresh:
+
+![refresh](https://cdn.discordapp.com/attachments/535828386912927752/572499154916343829/workingonrefresh.png)
+
+We have tested for various tweets and results to find our programs flaws and errors. Various Twitter accounts, types of
+tweets, what words the tweets have, what media is on the tweet. As previously mentioned, our add-on once visible only
+consistently succeeds on text-only tweets. 
+
 
 </br></br>
 <h2>Team</h2>
