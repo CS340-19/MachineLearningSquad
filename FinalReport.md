@@ -37,7 +37,7 @@ team member worked on.
 on each member. Researched how to communicate with the Twitter API, Google API and provided background assistance with 
 each members' roles/assignments.
 
-- Austin Oaks:
+- Austin Oaks: Implemented the Firefox addon that read our server API and inserted the Google Search links below the corresponding tweet. The addon was written in JavaScript and used content scripts and AJAX requests to communicate with the server and display each link. 
 
 - Kody Bloodworth:
 
