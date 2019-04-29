@@ -24,6 +24,17 @@ No changes.
 </br></br>
 <h2>Technology</h2>
 
+Our addon for Firefox will allow Twitter users to find related articles on tweets to get a better understanding of the talked
+about subject. There will be a lot of moving parts within our addon consisting of JavaScript, Python, HTML, and CSS. HTML and
+CSS will be used for designing a UI for the addon dropdown window. JavaScript is used to initiate the addon within Firefox,
+and will be used to communicate with the Twitter API, Google API, and Python scripts hosted on a server. The overall process
+will begin when the user interacts with our addon on the page of the tweet, the addon will then be using the Twitter API
+through JavaScript to obtain the text of the tweet, connect to the server hosting the Python machine learning script to send
+the tweet data, then the Python script will use machine learning algorithms to estimate keywords from the tweet to search
+through Google to find related information, once the Python script obtains the keywords, they will be sent back to JavaScript
+and be passed to the Google API which will return the top search results from the keywords and return the links and
+information on the results.
+
 After completing our minimum viable system of "Tweet-to-GoogleSearch" program, we set out the goal to transition it to our
 Firefox add-on. Once the user clicks on our icon, which is just the same Direct Message icon but on the far right, 
 relevant Google links are provided as shown:
