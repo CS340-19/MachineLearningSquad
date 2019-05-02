@@ -19,7 +19,7 @@ surface level we completed our project's goals, but there is always room for imp
 </br></br>
 <h2>Customer Value</h2>
 
-No changes.
+No changes. We still believe that our customers will value quick access to information about the stories their friends are discussing. 
 
 </br></br>
 <h2>Technology</h2>
@@ -92,10 +92,10 @@ time investing ourselves into learning consuming much more time. As a whole, we 
 reasons we did not meet our goals involved miscommunication, lack of communication, and time conflicts. The first
 two points involve our communication skills in our group, our primary tool was Discord and not all of us used it as much
 compared to others so response times would vary between persons. Some instances of miscommunication involve code - if it
-wasn't commented or obvious to "decipher" time would be spent either figuring it out or debugging due to not proper
+wasn't commented or obvious to "decipher," time would be spent either figuring it out or debugging due to improper
 understanding of what was provided. Most meetings, even ones in class, not all members would be present due to other
 urgent needs dwindling down the small amount of time we spend as a group. Even with all of these obstacles we still
-managed to find opportunities to gather and create our product.
+managed to find opportunities to gather and create our product. Above all this, our lack of familiarity with the technologies we were using meant that what time we had was spent with research and experimentation. While this yielded new skills, it also meant that our original assumptions regarding scheduling were futher distorted.
 
 
 </br></br>
@@ -106,8 +106,8 @@ aspects. Unfortunately, we knew what we needed to do, but not how to do it. Some
 or be completely abandoned. Our lack of proper documentation was a disaster as well, if only one person knew/worked on
 something and went "MIA" the rest of the group with be completely clueless on that part. Development went in jumps, we
 had time periods where nothing was done then some when a lot of things would be completed. Our testing phase was brief,
-but we did manage to find our program's flaws and weaknesses. Team management was proper, meetings were created when
-needed and everyone was followed-up with, updates for each part were provided at the earlies convenience, either through
-class time or Discord. In conclusion we consider this project to be a success, although it isn't "complete" we all
+but we did manage to find our program's flaws and weaknesses. In future projects, we intend to learn from our mistakes, and more appropriately handle communication and time management. Team management was proper, meetings were created when
+needed and everyone was followed-up with, updates for each part were provided at the earliest convenience, either through
+class time or Discord. In conclusion, we consider this project to be a success, although it isn't "complete" we all
 walked in wanting an experience to broaden our knowledge/skills of the Computer Science field, we can all agree
-that we learned a lot from this project and can showoff this add-on.
+that we learned a lot from this project and can showoff this add-on. 
